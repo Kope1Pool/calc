@@ -1,0 +1,64 @@
+.calc {
+    width: 260px;
+    height: 500px;
+   margin: 50px auto;
+    padding: 15px;
+    box-shadow: 4px 4px 4px #4f4f4f;
+    border-radius: 20px;
+    color: #fcfcfd;
+    font-size: 19px;
+    background: #000;
+    font-family: Arial;
+  }
+  .calc-screen{
+    height: 125px;
+    padding: 10px;
+    display: grid;
+    justify-items: end;
+    align-items: end;
+
+  }
+  .calc-screen p{
+    text-align: right;
+    font-size: 4rem;
+    margin: 0;
+  }
+  .buttons{
+    display: grid;
+    grid-template-columns: 
+    repeat(4, 1fr);
+    grid-gap: 7px;
+  }
+
+.btn{
+  width: 60px;
+  height: 60px;
+  background: #4f4f4f;
+  border-radius: 31%;
+  text-align: center;
+  line-height: 60px;
+  cursor: pointer;
+  user-select: none;
+}
+.btn:hover{
+  filter: brightness(120%)
+
+}
+
+.btn:active{
+  filter: brightness(70%)
+  
+}
+.rovno{
+  width: 120px;
+}
+.plus{
+  margin: 0px 0px 0px -60px;
+}
+/*grid-template-areas: 
+"as plus-minus proc def"
+"seven vocem devyt iks"
+"chet pyat shest minus"
+"odin dva  tri plus"
+"zero drob rovno";
+}/*
